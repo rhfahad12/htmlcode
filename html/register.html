@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+<body>
+    <h1>Registion Page</h1>
+    <hr>
+
+    <form action="">
+        <label for="f-name">Enter your First name</label> <br />
+        <input type="text" required name="f-name" placeholder="Rakib" /> <br />
+        <label for="l-name">Enter your Last name</label> <br />
+        <input type="text" required name="l-name" placeholder="Hassan" /> <br />
+        <label for="db" >Date of Birth</label> <br />
+        <input type="date" required /> <br>
+     <!--Radio start-->
+        <label for="">Gernder</label> <br />
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" />
+        <label for="other">Other</label> <br/>
+        <!--Radio is end-->
+
+        <label for="mail">Enter your email</label> <br />
+        <input type="text" required name="mail" placeholder="rakib@gmail.com" /> <br />
+
+        <label for="cmail">Conform email</label> <br />
+        <input type="text" required name="cmail" placeholder="rakib@gmail.com" /> <br />
+
+        <label for="pass"> Enter your password</label> <br />
+        <input type="password" required name="pass" placeholder="@123abc&" /> <br />
+
+        <input type="submit" value="Register">
+    </form>
+    <p>Alrady have an account? Please <a href="../index.html" target="_blank">Login Here</a> </p>
+</body>
+</html>
